@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: DM-PI-WebStart
+  host: DM-PI-WebStart
+  disk_quota: 1024M
+  services:
+  - DM-PI-WebStart-personality_insights
